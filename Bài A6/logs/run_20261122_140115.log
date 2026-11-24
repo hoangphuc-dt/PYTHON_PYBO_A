@@ -1,0 +1,17 @@
+2026-11-22 14:01:15 [INFO] Bắt đầu. input=D:\HK 2026 - 2027\Python\gop_bang_diem\gop_bang_diem\sample_data | output=D:\HK 2026 - 2027\Python\gop_bang_diem\gop_bang_diem\output | điểm đạt=5.0 | dry-run=False
+2026-11-22 14:01:15 [INFO] Tìm thấy 8 file trong D:\HK 2026 - 2027\Python\gop_bang_diem\gop_bang_diem\sample_data
+2026-11-22 14:01:15 [WARNING] DÒNG LỖI CNTT1.csv dòng 4: thiếu điểm
+2026-11-22 14:01:15 [WARNING] DÒNG LỖI CNTT1.csv dòng 6: điểm không phải số: 'vắng'
+2026-11-22 14:01:15 [WARNING] DÒNG LỖI CNTT1.csv dòng 8: điểm ngoài khoảng 0-10: '11.5'
+2026-11-22 14:01:15 [WARNING] DÒNG LỖI CNTT1.csv dòng 10: trùng MSSV trong cùng file: 21CT1002
+2026-11-22 14:01:15 [INFO] OK (có dòng lỗi) CNTT1.csv: 8 dòng hợp lệ, 4 dòng lỗi
+2026-11-22 14:01:16 [WARNING] DÒNG LỖI CNTT2.xlsx dòng 7: thiếu họ tên
+2026-11-22 14:01:16 [INFO] OK (có dòng lỗi) CNTT2.xlsx: 9 dòng hợp lệ, 1 dòng lỗi
+2026-11-22 14:01:16 [INFO] OK      CNTT3.csv: 15 dòng hợp lệ, 0 dòng lỗi
+2026-11-22 14:01:16 [ERROR] LỖI     CNTT5_thieu_cot.csv -> ValueError: thiếu cột: diem (file có cột: ['mssv', 'hoten'])
+2026-11-22 14:01:16 [ERROR] LỖI     CNTT6_hong.xlsx -> BadZipFile: File is not a zip file
+2026-11-22 14:01:16 [ERROR] LỖI     CNTT7_rong.csv -> EmptyDataError: No columns to parse from file
+2026-11-22 14:01:16 [INFO] BỎ QUA  ghi_chu.txt (định dạng .txt không hỗ trợ)
+2026-11-22 14:01:16 [INFO] OK      hoc_ky_2\CNTT4.xlsx: 8 dòng hợp lệ, 0 dòng lỗi
+2026-11-22 14:01:16 [INFO] Đã xuất báo cáo: D:\HK 2026 - 2027\Python\gop_bang_diem\gop_bang_diem\output\bao_cao_diem_20261122_140116.xlsx
+2026-11-22 14:01:16 [INFO] Xong. 4 file đọc được, 3 file lỗi, 5 dòng bị loại. Log: D:\HK 2026 - 2027\Python\gop_bang_diem\gop_bang_diem\logs\run_20261122_140115.log
